@@ -10,4 +10,5 @@ youtube_search
 youtube_search_python
 pyrogram
 pytgcalls
+yt-dlp
 git+https://github.com/asmsafone/downloader
