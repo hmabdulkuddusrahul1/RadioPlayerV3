@@ -9,5 +9,5 @@ python-dotenv
 youtube_search
 youtube_search_python
 pyrogram
-yt-dlp
+yt_dlp
 git+https://github.com/asmsafone/downloader
