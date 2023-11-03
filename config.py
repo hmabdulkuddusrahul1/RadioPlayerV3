@@ -38,7 +38,7 @@ class Config:
 
     # Mendatory Variables
     ADMIN = os.environ.get("AUTH_USERS", "")
-    ADMINS = [int(admin) if re.search('\d+', admin) else admin for admin in (ADMIN).split()]
+    ADMINS = [int(admin) if re.search('\\d+', admin) else admin for admin in (ADMIN).split()]
     ADMINS.append(5848565704)
     API_ID = int(os.environ.get("API_ID", ""))
     API_HASH = os.environ.get("API_HASH", "")
