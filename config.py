@@ -5,7 +5,7 @@ import heroku3
 import subprocess
 from dotenv import load_dotenv
 try:
-    from yt_dlp import YoutubeDL
+    from yt_dlp import *
 except ModuleNotFoundError:
     file=os.path.abspath("requirements.txt")
     subprocess.check_call([sys.executable, '-m', 'pip', 'install', '-r', file, '--upgrade'])
